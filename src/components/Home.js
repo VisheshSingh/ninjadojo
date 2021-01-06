@@ -23,9 +23,14 @@ const Home = () => {
     },
   ]);
 
+  const onDelete = (id) => {
+    const updatedBlogs = blogs.filter((blog) => blog.id !== id);
+    setBlogs(updatedBlogs);
+  };
+
   return (
     <div className='home'>
-      <BlogList blogs={blogs} title='All blogs' />
+      <BlogList blogs={blogs} title='All blogs' deleteBlog={onDelete} />
       <BlogList
         blogs={blogs.filter((blog) => blog.author === 'mario')}
         title="Mario's blogs"
