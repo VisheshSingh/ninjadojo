@@ -1,7 +1,22 @@
 {
-    "blogs" : [
-        { "id": 1, "title": "Welcome to the new blog", "author": "Max" },
-        { "id": 2, "title": "Learning React with hooks", "author": "Brad" },
-        { "id": 3, "title": "Top 3 css tips", "author": "Shaun" }
-      ]
+  "blogs": [
+    {
+      "id": 1,
+      "title": "Vue.js - a progressive framework",
+      "author": "Max",
+      "description": "Vue.js is an open-source model–view–viewmodel front end JavaScript framework for building user interfaces and single-page applications. It was created by Evan You, and is maintained by him and the rest of the active core team members."
+    },
+    {
+      "id": 2,
+      "title": "Fun learning with React.js",
+      "author": "Brad",
+      "description": "React is an open-source, front end, JavaScript library for building user interfaces or UI components. It is maintained by Facebook and a community of individual developers and companies. React can be used as a base in the development of single-page or mobile applications"
+    },
+    {
+      "id": 3,
+      "title": "Top 3 css tips",
+      "author": "Shaun",
+      "description": "Cascading Style Sheets is a style sheet language used for describing the presentation of a document written in a markup language such as HTML. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript."
+    }
+  ]
 }

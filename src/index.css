@@ -28,6 +28,9 @@
 .navbar a:hover {
   color: #f1356d;
 }
+.navbar .logo {
+  margin-left: 0;
+}
 .content {
   max-width: 600px;
   margin: 40px auto;
@@ -48,4 +51,18 @@
   font-size: 20px;
   color: #f1356d;
   margin-bottom: 8px;
+}
+
+.blog-preview a {
+  text-decoration: none;
+}
+
+.blog-details h2 {
+  color: #f1356d;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.blog-details div {
+  margin: 20px 0;
 }
