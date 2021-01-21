@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const Create = () => {
+const Create = (props) => {
   const [title, setTitle] = useState('');
   const [description, setDescription] = useState('');
   const [author, setAuthor] = useState('mario');
@@ -16,7 +16,14 @@ const Create = () => {
         'Content-Type': 'application/json',
       },
       body: JSON.stringify(blog),
-    });
+    })
+      .then((res) => {
+        console.log(res);
+        if (res.status === 201 && res.ok) {
+          props.history.push('/');
+        }
+      })
+      .catch((err) => console.log(err.message));
     setTitle('');
     setDescription('');
     setAuthor('mario');
