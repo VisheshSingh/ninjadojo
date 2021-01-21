@@ -17,6 +17,12 @@
       "title": "Top 3 css tips",
       "author": "Shaun",
       "description": "Cascading Style Sheets is a style sheet language used for describing the presentation of a document written in a markup language such as HTML. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript."
+    },
+    {
+      "title": "understanding vue.js state management with vuex",
+      "description": "Vuex is a state management pattern + library for Vue.js applications. It serves as a centralized store for all the components in an application, with rules ensuring that the state can only be mutated in a predictable fashion",
+      "author": "mario",
+      "id": 4
     }
   ]
 }

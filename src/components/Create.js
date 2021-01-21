@@ -7,7 +7,16 @@ const Create = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log(title, description, author);
+    const blog = { title, description, author };
+    console.log({ blog });
+
+    fetch(`http://localhost:8000/blogs`, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify(blog),
+    });
     setTitle('');
     setDescription('');
     setAuthor('mario');
