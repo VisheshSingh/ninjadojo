@@ -1,9 +1,11 @@
 import React, { useState } from 'react';
+import { useHistory } from 'react-router-dom';
 
-const Create = (props) => {
+const Create = () => {
   const [title, setTitle] = useState('');
   const [description, setDescription] = useState('');
   const [author, setAuthor] = useState('mario');
+  const history = useHistory();
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -20,7 +22,7 @@ const Create = (props) => {
       .then((res) => {
         console.log(res);
         if (res.status === 201 && res.ok) {
-          props.history.push('/');
+          history.push('/');
         }
       })
       .catch((err) => console.log(err.message));
