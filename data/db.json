@@ -23,18 +23,6 @@
       "description": "Vuex is a state management pattern + library for Vue.js applications. It serves as a centralized store for all the components in an application, with rules ensuring that the state can only be mutated in a predictable fashion",
       "author": "mario",
       "id": 4
-    },
-    {
-      "title": "test",
-      "description": "testing",
-      "author": "luigi",
-      "id": 5
-    },
-    {
-      "title": "safdadsf",
-      "description": "asfadsfas",
-      "author": "luigi",
-      "id": 6
     }
   ]
 }

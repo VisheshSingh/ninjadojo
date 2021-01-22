@@ -87,6 +87,7 @@ form label {
   border: 1px solid #ccc;
 }
 
+.blog-details button,
 .create button {
   margin: 20px auto;
   background-color: #f1356d;
